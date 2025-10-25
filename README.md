@@ -56,26 +56,8 @@ npm install
 
 Les variables Supabase sont déjà configurées. Ajoutez les suivantes :
 
-\`\`\`env
-# Email (Gmail)
-EMAIL_PROVIDER=gmail
-EMAIL_FROM=contact.kerventzweb@gmail.com
-GMAIL_USER=your-gmail@gmail.com
-GMAIL_APP_PASSWORD=your-app-password
 
-# OU Email (SendGrid)
-EMAIL_PROVIDER=sendgrid
-SENDGRID_API_KEY=your-sendgrid-key
 
-# SMS (Twilio)
-TWILIO_ACCOUNT_SID=your-account-sid
-TWILIO_AUTH_TOKEN=your-auth-token
-TWILIO_FROM_NUMBER=+1234567890
-
-# SMM API
-SMM_API_URL=https://your-smm-api.com
-SMM_API_KEY=your-api-key
-\`\`\`
 
 ### 3. Initialiser la base de données
 
@@ -94,17 +76,7 @@ npm run dev
 
 Le site sera accessible sur `http://localhost:3000`
 
-## Comptes par défaut
 
-### Super Admin
-- Username: `admin`
-- Password: `kerventz2005`
-- Accès: `/admin`
-
-### Sous-Admin
-- Username: `subadmin`
-- Password: `admin1234`
-- Accès: `/subadmin`
 
 ## Structure du projet
 
